@@ -21,7 +21,7 @@ const renderNotes = () => {
         const textEl = document.createElement('p');
         textEl.textContent = note.text;
 
-        const deleteBtn = document.createElement('span');
+        const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'Удалить';
         deleteBtn.className = 'delete-btn';
         deleteBtn.onclick = () => {
